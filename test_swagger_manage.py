@@ -33,7 +33,8 @@ def re_File():
     with open("docx.txt","r",encoding='utf-8') as f:
         content = f.read()
         patterns = pattern.findall(content)
-        print(patterns)
+        #print(patterns)
+        return patterns
 
 # 将正则匹配的内容写入到[]中
         '''for index in range(0,len(patterns)):
